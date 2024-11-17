@@ -8,4 +8,4 @@ def project_details():
     return render_template('project_details.html')
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=5001)  # Specify the port here
